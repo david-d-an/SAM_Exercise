@@ -1,0 +1,9 @@
+ 9965  sam init
+ 9969  sam build
+ 9970  sam package --s3-bucket sam-test6721 --output-template-file out.yaml
+ 9972  sam deploy --guided
+ 9974  sam local start-api
+ 9979  sam local invoke HelloWorldFunction -e events/event.json
+ 9982  sam logs
+ 9986  sam logs --name HelloWorldFunction
+ 9989  sam logs --stack-name MySamDemo --name HelloWorldFunction
